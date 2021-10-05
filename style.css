@@ -1,0 +1,51 @@
+:root {
+    --primary: #0707a1;
+    --secondary: rgb(169, 203, 248);
+}
+
+header {
+    color: #ffffff;
+    background-color: var(--primary);
+    position: relative;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 32px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 32px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+main {
+    padding: 0 18em;
+}
+
+main section {
+    padding: 1em;
+}
+
+.articleTopper {
+    color: var(--secondary);
+    background-color: var(--secondary);
+    height: 2em;
+}
+
+.articlePicture {
+  width: 15em;
+  height: 7em;
+  object-fit: cover;
+}
+
+footer {
+    color: var(--primary);
+    background-color: var(--primary);
+    position: sticky;
+    text-align: center;
+    padding: 4em;
+}
